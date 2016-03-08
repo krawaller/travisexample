@@ -5,7 +5,7 @@ function Hero(name, powers) {
 }
 
 Hero.prototype.seepStamina = function (amount) {
-  this.stamina = Math.max(this.stamina - amount, 0)
+  this.stamina = this.stamina - amount; // Math.max(this.stamina - amount, 0)
 }
 
 Hero.prototype.fly = function () {

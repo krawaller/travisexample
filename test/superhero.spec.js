@@ -19,5 +19,9 @@ describe('superhero', function () {
 			hero.seepStamina(2)
 			hero.stamina.should.equal(8)
 		})
+		it('should not go below 0', function () {
+			hero.seepStamina(15)
+			hero.stamina.should.equal(0)
+		})
 	})
 })
