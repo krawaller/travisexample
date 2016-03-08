@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "standard": "^6.0.7",
+    "standard-loader": "^3.0.0",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "./node_modules/.bin/mocha"
+  }
+}
